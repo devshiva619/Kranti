@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-              <nav className="navbar navbar-default navbar-fixed-top">
+              <nav className="navbar navbar-default navbar-static-top">
                 <div className="container">
                   <div className="navbar-header">
                     <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -15,8 +15,8 @@ class Header extends Component {
                       <span className="icon-bar"></span>
                     </button>
                     <div className="navbar-brand">
-                      <img src={KrantiLogo} className="header_logo" alt="logo"/>
-                      <a className="logo_title" href="#home">Kranti</a>
+                        <a href="/public/index.html"></a><img src={KrantiLogo} className="header_logo" alt="logo"/>
+                      <a className="logo_title" href="/public/index.html">Kranti</a>
                     </div>
                   </div>
                   <div className="collapse navbar-collapse" id="myNavbar">

@@ -5,13 +5,13 @@ import Header from './components/Header/Header';
 class App extends Component {
     render() {
         return (
-          <body>
+          <div>
             <Header/>
             <div className="App" style={{ textAlign: 'center' }}>
-              <h1>Hello World</h1>
-              <p>Welcome to Kranti</p>
+              <h1>Kranti</h1>
+              <p>Join the Revolution</p>
             </div>
-          </body>
+          </div>
         );
     }
 }
