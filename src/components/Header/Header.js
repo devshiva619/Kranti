@@ -15,7 +15,7 @@ class Header extends Component {
                       <span className="icon-bar"></span>
                     </button>
                     <div className="navbar-brand">
-                        <a href="/public/index.html"></a><img src={KrantiLogo} className="header_logo" alt="logo"/>
+                        <a href="/public/index.html"><img src={KrantiLogo} className="header_logo" alt="logo"/></a>
                       <a className="logo_title" href="/public/index.html">Kranti</a>
                     </div>
                   </div>
