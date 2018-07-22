@@ -24,8 +24,8 @@ class Header extends Component {
                     <ul className="nav navbar-nav navbar-right">
                       <li><a href="#home">Homepage</a></li>
                       <li><a href="#team">Meet the Revolutionaries</a></li>
-              				<li><a href="#support">Support</a></li>
-              				<li><a href="#faq">FAQs</a></li>
+                      <li><a href="#support">Support</a></li>
+                      <li><a href="#faq">FAQs</a></li>
                       <li><a href="#press">Press</a></li>
                       <li><a href="#contact">Contact</a></li>
                       <li><a href="#blog">Blog</a></li>
